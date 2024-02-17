@@ -1,0 +1,25 @@
+.left-image{
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+    position: relative;
+    background-color: black;
+}
+.row{
+    width: 900px;
+    min-height: 450px;
+    border-radius: 10px;
+    background-color: rgb(213, 235, 201);
+}
+.left-image p {
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    color: var(--brand-green);
+    text-wrap: wrap;
+    text-align: center;
+    font-size: large;
+    font-weight: 700;
+}
