@@ -1,0 +1,27 @@
+.brand-promo-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.brand-promo-box{
+    border: 1px solid var(--brand-green2);
+    border-radius: 10px;
+    height: 10rem;
+    width: 15rem;
+    box-shadow: black 0px 4px 12px;
+    padding: 1rem;
+    text-transform: capitalize;
+    border: 3px solid var(--brand-green2);
+}
+.brand-promo-container :hover{
+    box-shadow: 0 3px 6px black, 0 3px 6px black;
+    transform: scale(1.1);
+}
+.brand-promo-box p:hover, .brand-promo-box h4:hover,.brand-promo-box img:hover{
+    box-shadow: none;
+    transform: none;
+}
+.brand-promo-box h4{
+    color: var(--brand-green2);
+    font-weight: bolder;
+}
