@@ -1,10 +1,10 @@
 import React, { useState } from 'react'
 import './AuthPage.css'
 // import authImage from '../../Assets/.soccer.jpg'
-
- import authImage from '@assets/soccer.jpg'
+import authImage from '@assets/soccer.jpg'
 import LoginBox from '../../Components/AuthBox/LoginBox'
 import SignUpBox from '../../Components/AuthBox/SignUpBox'
+
 function AuthPage() {
     const [boxType,setBoxType]=useState('login')
   return (
